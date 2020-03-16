@@ -1,0 +1,67 @@
+/* footer styles */
+
+footer {
+	background-color:#333;
+	color: white;
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer a {
+	color: #ffbfa5;
+}
+.one-third li {
+    display: contents;
+ } 
+ .one-third li a {
+     margin: 10px;
+ } 
+
+ .one-third ul {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+ } 
+ .fab{
+     font-size: 29px;
+ }
+footer h2 a {
+	text-decoration: none;
+}
+footer p{
+    text-align: left;
+    color:#ffbfa5 ;
+}
+
+footer h2,h3{
+        color: #ffbfa5; 
+}
+
+footer a:hover,
+footer a:active,
+footer a:focus {
+	color: white;
+}
+
+
+.container-02::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.container-02 img{
+	width: 300px;
+	height: 272px;
+	float: right;
+	margin: 10px;
+}
+
+.container-02 p{
+	line-height: 28px;
+	font-size: 16px;
+	margin: 20px;
+	text-align: justify;
+}
+.container-03{
+	margin: 20px;
+}

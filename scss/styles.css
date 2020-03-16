@@ -1,0 +1,550 @@
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-text {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #343333;
+  text-shadow: 0 0 5px #998b76;
+  font-weight: bold;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next, .text {
+    font-size: 11px;
+  }
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #333;
+}
+
+header h1 {
+  margin: 0 0 0 20px;
+  color: #ffbfa5;
+  line-height: 60px;
+}
+
+nav {
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  width: 100%;
+  -webkit-transition: height 0.3s ease, visibility 0s 0.3s;
+  transition: height 0.3s ease, visibility 0s 0.3s;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+
+nav a {
+  line-height: 30px;
+  border-bottom: 1px solid #333;
+  border-top: 1px solid #afafaf;
+  padding: 0 20px;
+  color: #ffbfa5;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  font-size: 1.8em;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav li:last-child a {
+  border-bottom: 1px solid #afafaf;
+}
+
+.show nav {
+  visibility: visible;
+  height: 126px;
+  -webkit-transition: height 0.3s ease, visibiliy 0s;
+  transition: height 0.3s ease, visibiliy 0s;
+}
+
+/* Hamburger Styles */
+.hamburger {
+  display: block;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  width: 46px;
+  height: 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.hamburger-icon {
+  color: #ffbfa5;
+  line-height: 1;
+  font-size: 1.9em;
+}
+
+.hamburger:focus,
+.hamburger-icon:focus {
+  outline: none;
+}
+
+.hamburger:focus .hamburger-icon {
+  outline: 5px solid #69c1db;
+}
+
+.hamburger-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* Media Queries */
+@media (min-width: 560px) {
+  .banner-big-text {
+    font-size: 1.8em;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1;
+  }
+  .banner-text {
+    margin: 0;
+  }
+  .banner-big-text {
+    margin-right: 10%;
+  }
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (min-width: 700px) {
+  .logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 15px;
+    /* if you want it vertically middle of the navbar. */
+  }
+  nav {
+    width: auto;
+    height: auto;
+    visibility: visible;
+  }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  nav a {
+    line-height: 60px;
+    border: none;
+    display: inline-block;
+  }
+  nav li:last-child a {
+    border: none;
+  }
+  .hamburger {
+    display: none;
+  }
+  .banner {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .banner-big-text {
+    font-weight: bold;
+    margin-right: 60px;
+  }
+  .hero {
+    padding: 50px 0;
+    border-bottom: 1px dotted #ccc;
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  .hero h1 {
+    margin-bottom: 0.8em;
+  }
+  .hero p {
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .one-third {
+    width: 30.6666666667%;
+  }
+  footer p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 900px) {
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .one-third {
+    width: 21.6666666667%;
+  }
+  footer p {
+    text-align: center;
+  }
+  .one-third ul {
+    margin: 0;
+    padding: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .one-third li {
+    display: contents;
+  }
+  .one-third li a {
+    margin: 10px;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.wrapper {
+  max-width: 2150px;
+  margin: 0 auto;
+}
+
+h1, h2, nav a {
+  font-family: 'Dancing Script', cursive;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.hero {
+  padding-bottom: 20px;
+  border-bottom: 1px dotted #ccc;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  text-align: center;
+  font-size: 2.2em;
+  margin-bottom: 0.4em;
+}
+
+.hero p {
+  font-size: 1em;
+  padding: 10px;
+  color: black;
+}
+
+.cta .cta-text {
+  padding: 30px;
+}
+
+.cta h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2.2em;
+}
+
+.cta p {
+  font-size: 1.2em;
+}
+
+/* .cta{
+    background: url(../images/gif-05.gif) no-repeat;
+    background-size: cover;
+    
+} */
+.cta .cta-img {
+  height: 280px;
+  background-image: url(../images/home-cta.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: contain;
+  margin: 10px;
+}
+
+.cta-btn {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 22px;
+}
+
+.cta-btn a {
+  color: #ffbfa5;
+}
+
+@media (min-width: 41.875em) {
+  .cta {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px;
+  }
+  .cta .cta-text {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    padding: 30px;
+  }
+  .cta .cta-img {
+    width: 85%;
+    margin: 35px;
+  }
+}
+
+/* footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 30px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+footer a {
+  color: #ffbfa5;
+}
+
+.one-third li {
+  display: contents;
+}
+
+.one-third li a {
+  margin: 10px;
+}
+
+.one-third ul {
+  margin: 0;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fab {
+  font-size: 29px;
+}
+
+footer h2 a {
+  text-decoration: none;
+}
+
+footer p {
+  text-align: left;
+  color: #ffbfa5;
+}
+
+footer h2, h3 {
+  color: #ffbfa5;
+}
+
+footer a:hover,
+footer a:active,
+footer a:focus {
+  color: white;
+}
+
+.container-02::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container-02 img {
+  width: 300px;
+  height: 272px;
+  float: right;
+  margin: 10px;
+}
+
+.container-02 p {
+  line-height: 28px;
+  font-size: 16px;
+  margin: 20px;
+  text-align: justify;
+}
+
+.container-03 {
+  margin: 20px;
+}
+/*# sourceMappingURL=styles.css.map */

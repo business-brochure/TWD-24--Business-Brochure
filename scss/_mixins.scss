@@ -1,0 +1,126 @@
+/* Media Queries */
+@media (min-width: 560px){
+
+    .banner-big-text {
+        font-size: 1.8em;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 20px;
+        line-height: 1;
+    }
+
+    .banner-text {
+        margin: 0;
+    }
+
+    .banner-big-text {
+        margin-right: 10%;
+    }
+    .row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	} 
+
+}
+
+@media (min-width: 700px){
+
+    .logo {
+        display: inline-block;
+        vertical-align: top;
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+    }
+
+    nav {
+        width: auto;
+        height: auto;
+        visibility: visible;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav a {
+        line-height: 60px;
+        border: none;
+        display: inline-block;
+    }
+
+    nav li:last-child a {
+        border: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+    
+    .banner {
+        flex-direction: row;
+    }
+
+    .banner-big-text {
+        font-weight: bold;
+        margin-right: 60px;
+    }
+
+    .hero {
+        padding: 50px 0;
+        border-bottom: 1px dotted #ccc;
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    .hero h1 {
+        margin-bottom: 0.8em;
+    }
+
+    .hero p {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    .row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	} 
+	.one-third {
+		width: 30.6666666667%;
+    } 
+    footer p{
+        text-align: center;
+    }	
+	
+
+}
+@media (min-width: 900px) {
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+.one-third {
+    width: 21.6666666667%;
+} 
+
+footer p{
+    text-align: center;
+}
+.one-third ul {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+ } 
+.one-third li {
+   display: contents;
+} 
+.one-third li a {
+    margin: 10px;
+} 
+}

@@ -1,0 +1,82 @@
+nav {
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 100%;
+    transition: height 0.3s ease, visibility 0s 0.3s;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+
+nav a {
+    line-height: 30px;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #afafaf;
+    padding: 0 20px;
+    color: #ffbfa5;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    font-size: 1.8em;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+    background-color: rgba(255,255,255, 0.2);
+}
+
+nav li:last-child a {
+    border-bottom: 1px solid #afafaf;
+}
+
+.show nav {
+    visibility: visible;
+    height: 126px;
+    transition: height 0.3s ease, visibiliy 0s;
+}
+
+/* Hamburger Styles */
+.hamburger {
+    display: block;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hamburger-icon {
+    color:#ffbfa5;
+    line-height: 1;
+    font-size: 1.9em;
+}
+
+.hamburger:focus,
+.hamburger-icon:focus {
+    outline: none;
+}
+
+.hamburger:focus .hamburger-icon {
+    outline: 5px solid #69c1db;
+}
+
+.hamburger-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}

@@ -1,12 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cake Land Bakery</title>
+    <title>Cakeland Bakery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Gelasio|Righteous|Roboto:400,400i,700,700i|Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss/styles.css">
 </head>
 <body>
-    <h1>Hello world!</h1>
-    
+    <div class="wrapper">
+<header>
+    <h1 class="heading">Cakeland Bakery</h1>
+    <button class="hamburger">
+        <span class="hamburger-content">
+            <span class="hamburger-icon" tabindex="-1">
+                    &#9776;
+            </span>
+            <span class="hamburger-text">
+                Menu
+            </span>
+        </span>
+    </button>
+    <nav>
+        <ul>
+            <li><a href="#0">Home</a></li>
+            <li><a href="#0">Menu</a></li>
+            <!-- <a href="#0"> <img class="logo" src="images/logo2.PNG" alt="" srcset=""> </a> -->
+            <li><a href="#0">Order</a></li>
+            <li><a href="#0">Contact Us</a></li>
+        </ul>
+    </nav> 
+</header>
+<main>
+
+<div class="slideshow-container">
+       
+        <div class="mySlides fade">
+          <img src="images/banner-05.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="images/banner-03.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="images/banner-04.jpg" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="image-text">
+            <p class="banner-big-text">Memorable experience </p>
+            <p class="banner-big-text">WITH CAKELAND BAKERY </p>
+
+        </div>
+        
+</div> <!--end slide-show container-->
+<br>
+<div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+</div> <!--end slide-show dots-->
+<article class="hero">
+            <h1>Welcome to Cakeland<br>Made with love</h1>
+            <p>"Cakes are special. Every birthday,every celebraton ends with some sweet, a cake, and people remember. It's all about the memories. "</p>
+            <p>We can crete any custom cake you like, Wedding cakes, birthday cakes, events cakes and much more. We would be happy to create any custom design for your event.</p>
+</article> <!--hero article ends-->
+<section class="cta" id="cta"> 
+    <div class="cta-text">
+    <h1>Let's build your Dream Cake</h1>
+    <div class="title-btm-line"></div>
+    <p>We offer a variety of cakes to make your day special. We offer a highly professional wedding cake service from start to finish. We will do our best to make it an unforgetable experience.
+    </p>
+    <div class="cta-btn">
+            <a href="#0" class="jump-loc">Menu</a>
+    </div> <!--end of cta-btn-->
+     </div><!--end of cta-text-->
+     <div class="cta-img">
+     </div>
+</section> <!--end of cta section-->
+</main>
+<footer>
+    <div class="row">
+        <div class="one-third column">
+            <h2>HOURS</h2>
+            <h3>Monday-Friday | 11am-8pm </h3>
+            <h3>Saturday-Sunday | 12pm-4pm</h3>
+        </div>
+        <div class="one-third column">
+            <h2>FOLLOW US ON</h2>
+            <ul>
+                <li><a href="#" class="social facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#" class="social twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" class="social instagram"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="one-third column">
+            <h2>CONTACT</h2>
+            <h3>114 West street | Vancouver <br>V6J4PO <br>(604)-389-5590 <br>Email: order@cakelandbakery.com </h3>
+        </div>
+    </div>
+    <p>&copy; 2020 For Education Use Only</p>
+</footer>
+</div> <!--end wrapper-->
+<script src="scripts/show-nav.js"></script>
 </body>
 </html>
