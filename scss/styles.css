@@ -641,11 +641,15 @@ footer a:focus {
   width: 100%;
 }
 
+body {
+  background-color: rgba(247, 238, 238, 0.63);
+}
+
 .title {
   border-top: solid #3f2a20 1px;
   border-bottom: solid #3f2a20 1px;
   width: 50%;
-  margin: 20% auto;
+  margin: 10% auto;
   text-align: center;
   font-size: 30px;
 }
@@ -660,7 +664,7 @@ article {
 }
 
 .caption {
-  background-color: #f7eff1c9;
+  background-color: #e0dddec9;
   max-width: 400px;
 }
 
@@ -693,6 +697,10 @@ article {
 }
 
 @media (min-width: 900px) {
+  .title {
+    margin: 5% auto;
+    font-size: 48px;
+  }
   article {
     width: 30%;
     margin-left: 20px;
@@ -704,7 +712,7 @@ article {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 900px) {
   article {
     padding-left: 10px;
     width: 30%;
@@ -713,6 +721,14 @@ article {
     margin-left: 10%;
     margin-right: 10%;
   }
+}
+
+@media (min-width: 800px) {
+  .title {
+    margin: 10% auto;
+  }
+}
+
 .basic-form {
   max-width: 640px;
   margin: 0 auto;

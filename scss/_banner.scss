@@ -5,7 +5,9 @@
     width: 100%;
     // height: 500%;
 }
-
+body{
+    background-color: rgba(247, 238, 238, 0.63);
+}
 //styling the title
 .title{
     border-top: solid rgb(63, 42, 32) 1px;
@@ -30,7 +32,7 @@ article {
 }
 
 .caption{
-background-color: #f7eff1c9;
+background-color: #e0dddec9;
 max-width: 400px;
  }
 
@@ -61,8 +63,10 @@ max-width: 400px;
 }
 @include tablet{
     .title{
-        margin: 10% auto;
+        margin: 5% auto;
+        font-size: 48px;
     }
+   
     article{
         width: 30%;
         margin-left: 20px ;
@@ -72,8 +76,9 @@ max-width: 400px;
     section{
         margin-left: 3%;
     }
+
 }
-@include desktop{
+@include tablet{
     article{
         padding-left: 10px;
         width: 30%;
@@ -82,17 +87,9 @@ max-width: 400px;
         margin-left: 10% ;
         margin-right: 10%;
     }
-    .title{
-        margin: 5% auto;
-    }
 }
-// @include title-breakpoint{
-//     .title{
-//        background-color: red;
-//         }
-// }
-@media(min-width: 800px){
+@include title-breakpoint{
     .title{
-        margin: 5% auto;
-    }
+       margin: 10% auto;
+        }
 }
