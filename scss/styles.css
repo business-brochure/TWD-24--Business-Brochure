@@ -2,6 +2,10 @@
   display: none;
 }
 
+.mySlides2 {
+  display: none;
+}
+
 img {
   vertical-align: middle;
 }
@@ -516,7 +520,6 @@ h1 {
 } */
 .cta .cta-img {
   height: 280px;
-  background-image: url(../images/home-cta.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
