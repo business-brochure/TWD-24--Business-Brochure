@@ -21,7 +21,23 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
-	} 
+    } 
+     
+    .row01 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+    } 
+    
+    .serve{
+        text-align: center;
+        font-size: 1.2em;
+     
+    }
+    .submit-group input {
+        width: auto;
+    }
+
 
 }
 
@@ -96,7 +112,30 @@
     footer p{
         text-align: center;
     }	
-	
+     
+    .question4  input{
+        padding:40px;
+        width:100%
+    
+
+    }
+
+    .first-name,
+.last-name,
+.email,
+.phone-number,
+.question2,
+.question3 {
+    width:100% ;
+}
+
+
+.row01 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
 
 }
 @media (min-width: 900px) {
@@ -124,6 +163,36 @@ footer p{
 .one-third li a {
     margin: 10px;
 } 
+.first-name,
+.last-name,
+.email,
+.phone-number,
+.question2,
+.question3
+ {
+    width:100% ;
+}
+
+
+
+.row{
+   display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.question4  input{
+    padding:50px;
+    width:104%;
+ 
+
+}
+
+.serve h1{
+    font-size:1.5em;
+}
+
+
 }
 @mixin phone-large{
     @media (min-width:500px) {

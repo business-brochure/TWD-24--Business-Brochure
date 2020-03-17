@@ -18,6 +18,33 @@ body {
     min-height: 100vh;
 }
 
+.body-form {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:white;
+    color: black;
+    font-weight: 900;
+}
+
+h1, h2, nav a {
+	font-family: 'Dancing Script', cursive;
+}
+
+h1, h3, h2 {
+    text-align: center;
+}
+
+h1{
+    padding-top:20px;
+}
+
+
+.heading-second h3{
+    color:black;
+}
+
+
+
 .hero {
     padding-bottom: 20px;
     border-bottom: 1px dotted #ccc;
