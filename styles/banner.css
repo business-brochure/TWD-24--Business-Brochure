@@ -1,0 +1,31 @@
+.banner img {
+  max-width: 1920px;
+  width: 100%; }
+
+.title {
+  border-top: solid brown 1px;
+  border-bottom: solid brown 1px;
+  width: 50%;
+  margin: 20% auto;
+  text-align: center;
+  font-size: 30px; }
+  .title h2 {
+    margin-top: 10%;
+    margin-bottom: 10%; }
+
+article {
+  margin: 10%;
+  width: 400px; }
+
+article img {
+  width: 100%;
+  height: 510px;
+  position: relative; }
+
+.capation {
+  background-color: rosybrown; }
+
+.capation p {
+  text-align: center; }
+
+/*# sourceMappingURL=banner.css.map */
