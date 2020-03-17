@@ -1,0 +1,134 @@
+
+
+
+
+.basic-form {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left:30px;
+ 
+}
+
+
+.basic-form h2, 
+.basic-form h3, 
+.basic-form p,
+.basic-form label,
+.basic-form input[type="submit"] {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.basic-form h3 {
+    font-size: 1.1em;
+    margin-bottom: 0.5;
+}
+
+
+
+.basic-form input:not([type="submit"]), 
+.basic-form option {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.basic-form fieldset {
+    padding: 0;
+    border: 0;
+}
+
+
+.basic-form label {
+    font-size: 1.05em;
+    margin-bottom: 0.3em;
+}
+
+.basic-form select {
+    font-size: 1.05em;
+    margin-left: 5px;
+}
+
+.form-group {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+   
+}
+
+/*  Info Styles */
+.patient-info-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.first-name,
+.last-name,
+.email,
+.question2,
+.phone-number {
+    width:87% ;
+}
+
+.email {
+    width: 87%;
+}
+.question2, .question3, .question4{
+    width:87%;
+}
+
+
+ .form-row:not(:last-child) {
+    margin-bottom: 2.2em;
+}
+
+.patient-info-group label,
+.patient-info-group input {
+    width: 100%;
+}
+
+.patient-info-group input {
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    border-style: ridge;
+    font-size: 1.025em;
+    margin-top: 10px;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.serve{
+    text-align: center;
+    font-size: 0.9em;
+   transition: random($limit: 1);
+}
+
+
+.question4  input{
+    padding:40px;
+    width:102%;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    border-style: ridge;
+}
+
+
+.submit-group input {
+    color: #fff;
+    background-color:black;
+    border: 2px solid black;
+    border-style: ridge;
+    font-size: 1.1em;
+    border-radius: 9px;
+    cursor: pointer;
+    display: block;
+    margin-top:0;
+
+}

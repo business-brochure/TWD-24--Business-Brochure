@@ -258,6 +258,23 @@ nav li:last-child a {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  .row01 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .serve {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .submit-group input {
+    width: auto;
+  }
 }
 
 @media (min-width: 700px) {
@@ -330,6 +347,28 @@ nav li:last-child a {
   footer p {
     text-align: center;
   }
+  .question4 input {
+    padding: 40px;
+    width: 100%;
+  }
+  .first-name,
+  .last-name,
+  .email,
+  .phone-number,
+  .question2,
+  .question3 {
+    width: 100%;
+  }
+  .row01 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 @media (min-width: 900px) {
@@ -362,6 +401,31 @@ nav li:last-child a {
   .one-third li a {
     margin: 10px;
   }
+  .first-name,
+  .last-name,
+  .email,
+  .phone-number,
+  .question2,
+  .question3 {
+    width: 100%;
+  }
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .question4 input {
+    padding: 50px;
+    width: 104%;
+  }
+  .serve h1 {
+    font-size: 1.5em;
+  }
 }
 
 body {
@@ -386,6 +450,30 @@ body {
   -ms-grid-rows: auto 1fr auto;
       grid-template-rows: auto 1fr auto;
   min-height: 100vh;
+}
+
+.body-form {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: white;
+  color: black;
+  font-weight: 900;
+}
+
+h1, h2, nav a {
+  font-family: 'Dancing Script', cursive;
+}
+
+h1, h3, h2 {
+  text-align: center;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+.heading-second h3 {
+  color: black;
 }
 
 .hero {
@@ -546,5 +634,146 @@ footer a:focus {
 
 .container-03 {
   margin: 20px;
+}
+
+.basic-form {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-left: 30px;
+}
+
+.basic-form h2,
+.basic-form h3,
+.basic-form p,
+.basic-form label,
+.basic-form input[type="submit"] {
+  font-family: 'Roboto', sans-serif;
+}
+
+.basic-form h3 {
+  font-size: 1.1em;
+  margin-bottom: 0.5;
+}
+
+.basic-form input:not([type="submit"]),
+.basic-form option {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.basic-form fieldset {
+  padding: 0;
+  border: 0;
+}
+
+.basic-form label {
+  font-size: 1.05em;
+  margin-bottom: 0.3em;
+}
+
+.basic-form select {
+  font-size: 1.05em;
+  margin-left: 5px;
+}
+
+.form-group {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+/*  Info Styles */
+.patient-info-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.first-name,
+.last-name,
+.email,
+.question2,
+.phone-number {
+  width: 87%;
+}
+
+.email {
+  width: 87%;
+}
+
+.question2, .question3, .question4 {
+  width: 87%;
+}
+
+.form-row:not(:last-child) {
+  margin-bottom: 2.2em;
+}
+
+.patient-info-group label,
+.patient-info-group input {
+  width: 100%;
+}
+
+.patient-info-group input {
+  padding: 15px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  border-style: ridge;
+  font-size: 1.025em;
+  margin-top: 10px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.serve {
+  text-align: center;
+  font-size: 0.9em;
+  -webkit-transition: 1;
+  transition: 1;
+}
+
+.question4 input {
+  padding: 40px;
+  width: 102%;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  border-style: ridge;
+}
+
+.submit-group input {
+  color: #fff;
+  background-color: black;
+  border: 2px solid black;
+  border-style: ridge;
+  font-size: 1.1em;
+  border-radius: 9px;
+  cursor: pointer;
+  display: block;
+  margin-top: 0;
+}
+
+.wrapper-content {
+  max-width: 800px;
+  background-color: #ffbfa5;
+  opacity: 0.8;
+  -webkit-box-shadow: 0 0 7px 7px #858181;
+          box-shadow: 0 0 7px 7px #858181;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
