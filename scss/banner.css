@@ -1,0 +1,39 @@
+.banner img {
+  max-width: 1920px;
+  width: 100%;
+}
+
+.title {
+  border-top: solid #3f2a20 1px;
+  border-bottom: solid #3f2a20 1px;
+  width: 50%;
+  margin: 20% auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+.title h2 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+article {
+  margin: 10%;
+}
+
+.caption {
+  background-color: #f7e4e8c9;
+}
+
+.caption p {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.caption-2 {
+  padding-top: 10px;
+}
+/*# sourceMappingURL=banner.css.map */
