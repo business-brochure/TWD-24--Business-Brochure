@@ -561,6 +561,10 @@ h1 {
   }
 }
 
+body {
+  background-color: rgba(247, 238, 238, 0.63);
+}
+
 /* footer styles */
 footer {
   background-color: #333;
@@ -693,6 +697,10 @@ article {
     margin: 0;
     margin-left: 5%;
     margin-bottom: 10%;
+  }
+  .title h2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 }
 
