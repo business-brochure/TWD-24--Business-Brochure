@@ -3,6 +3,7 @@ body {
     
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(247, 238, 238, 0.63);
 }
 .wrapper {
     max-width: 2150px;
@@ -26,9 +27,6 @@ body {
     font-weight: 900;
 }
 
-h1, h2, nav a {
-	font-family: 'Dancing Script', cursive;
-}
 
 h1, h3, h2 {
     text-align: center;
@@ -54,7 +52,7 @@ h1, h3, h2 {
 }
 
 .hero p {
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 10px;
     color: black;
 }
@@ -70,11 +68,6 @@ h1, h3, h2 {
 .cta p{
     font-size: 1.2em;
 }
-/* .cta{
-    background: url(../images/gif-05.gif) no-repeat;
-    background-size: cover;
-    
-} */
 
 .cta .cta-img {
     height: 280px;
@@ -96,6 +89,8 @@ h1, h3, h2 {
 .cta-btn a{
     color: #ffbfa5;
 }
+
+
 @media (min-width: 41.875em) {
 .cta {
     display: grid;
@@ -112,7 +107,4 @@ h1, h3, h2 {
     margin: 35px;
 }
 
-}
-body{
-    background-color: rgba(247, 238, 238, 0.63);
 }
