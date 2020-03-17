@@ -2,6 +2,10 @@
   display: none;
 }
 
+.mySlides2 {
+  display: none;
+}
+
 img {
   vertical-align: middle;
 }
@@ -181,9 +185,10 @@ nav li:last-child a {
 
 .show nav {
   visibility: visible;
-  height: 126px;
+  height: auto;
   -webkit-transition: height 0.3s ease, visibiliy 0s;
   transition: height 0.3s ease, visibiliy 0s;
+  text-align: center;
 }
 
 /* Hamburger Styles */
@@ -431,6 +436,7 @@ nav li:last-child a {
 body {
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
+  background-color: rgba(247, 238, 238, 0.63);
 }
 
 .wrapper {
@@ -460,16 +466,8 @@ body {
   font-weight: 900;
 }
 
-h1, h2, nav a {
-  font-family: 'Dancing Script', cursive;
-}
-
 h1, h3, h2 {
   text-align: center;
-}
-
-h1 {
-  padding-top: 20px;
 }
 
 .heading-second h3 {
@@ -490,7 +488,7 @@ h1 {
 }
 
 .hero p {
-  font-size: 1em;
+  font-size: 1.2em;
   padding: 10px;
   color: black;
 }
@@ -509,14 +507,8 @@ h1 {
   font-size: 1.2em;
 }
 
-/* .cta{
-    background: url(../images/gif-05.gif) no-repeat;
-    background-size: cover;
-    
-} */
 .cta .cta-img {
   height: 280px;
-  background-image: url(../images/home-cta.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -559,10 +551,6 @@ h1 {
     width: 85%;
     margin: 35px;
   }
-}
-
-body {
-  background-color: rgba(247, 238, 238, 0.63);
 }
 
 /* footer styles */
