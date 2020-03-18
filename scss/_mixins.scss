@@ -225,3 +225,8 @@ footer p{
         @content;
     }
 }
+@mixin  desktop-menu {
+    @media(min-width: 710px){
+        @content;
+    }
+}
