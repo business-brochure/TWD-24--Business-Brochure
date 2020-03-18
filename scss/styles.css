@@ -428,6 +428,9 @@ body {
   .banner-big-text {
     margin-right: 10%;
   }
+  .hero {
+    width: auto;
+  }
   .row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -453,6 +456,12 @@ body {
     font-size: 1.2em;
   }
   .submit-group input {
+    width: auto;
+  }
+}
+
+@media (min-width: 500px) {
+  .hero {
     width: auto;
   }
 }
@@ -494,6 +503,7 @@ body {
     border-bottom: 1px dotted #ccc;
     max-width: 750px;
     margin: 0 auto;
+    width: auto;
   }
   .hero h1 {
     margin-bottom: 0.8em;
@@ -552,6 +562,9 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+  .hero {
+    width: auto;
   }
   .one-third {
     width: 21.6666666667%;
