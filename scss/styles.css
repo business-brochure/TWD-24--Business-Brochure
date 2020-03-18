@@ -145,6 +145,11 @@ header h1 {
   line-height: 60px;
 }
 
+header h1 a {
+  text-decoration: none;
+  color: #ffbfa5;
+}
+
 nav {
   height: 0;
   overflow: hidden;
@@ -333,6 +338,7 @@ h1, h3, h2 {
 
 .cta-btn a {
   color: #ffbfa5;
+  text-decoration: none;
 }
 
 .gotopbtn {
