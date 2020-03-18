@@ -262,17 +262,12 @@ nav li:last-child a {
 
 body {
   margin: 0;
-  font-family: 'Ubuntu', sans-serif;
   background-color: rgba(247, 238, 238, 0.63);
 }
 
 .wrapper {
   max-width: 2150px;
   margin: 0 auto;
-}
-
-h1, h2, nav a {
-  font-family: 'Dancing Script', cursive;
 }
 
 body {
@@ -615,7 +610,6 @@ footer {
   background-color: #333;
   color: white;
   padding: 30px;
-  font-family: 'Ubuntu', sans-serif;
 }
 
 footer a {
@@ -677,7 +671,6 @@ footer a:focus {
   line-height: 28px;
   font-size: 16px;
   margin: 20px;
-  text-align: justify;
 }
 
 .container-03 {
