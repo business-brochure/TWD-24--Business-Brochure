@@ -639,6 +639,7 @@ footer a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-left: 20px;
 }
 
 .fab {
@@ -817,8 +818,8 @@ footer a:focus {
   max-width: 800px;
   background-color: #ccc9c8;
   opacity: 0.8;
-  -webkit-box-shadow: 0 0 7px 7px #858181;
-          box-shadow: 0 0 7px 7px #858181;
+  -webkit-box-shadow: 0 0 7px 7px rgba(216, 190, 193, 0.938);
+          box-shadow: 0 0 7px 7px rgba(216, 190, 193, 0.938);
   margin: 0 auto;
   margin-top: 90px;
   margin-bottom: 90px;
