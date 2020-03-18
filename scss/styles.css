@@ -698,6 +698,11 @@ footer a:focus {
   width: 100%;
 }
 
+.banner01 {
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
 .basic-form {
   max-width: 640px;
   margin: 0 auto;
