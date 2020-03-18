@@ -28,10 +28,6 @@ body {
 }
 
 
-h1, h3, h2 {
-    text-align: center;
-}
-
 .heading-second h3{
     color:black;
 }
@@ -88,8 +84,27 @@ h1, h3, h2 {
 }
 .cta-btn a{
     color: #ffbfa5;
+    text-decoration: none;
 }
 
+.gotopbtn {
+    visibility: hidden;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(36, 35, 35, 0.5);
+    bottom: 10px;
+    right: 15px;
+    z-index: 3;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px; }
+    
+
+    .gotopbtn .fa-arrow-up
+     {
+      color: white; }
 
 @media (min-width: 41.875em) {
 .cta {
