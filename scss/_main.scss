@@ -4,6 +4,21 @@ h3{
     margin: 10% auto;
     font-size: large;
 }
+main h2{
+    color: rgb(39, 3, 3);
+    font-family: 'Roboto', sans-serif;
+}
+main h3{
+    color: rgb(39, 3, 3);
+    font-family: 'Roboto', sans-serif;
+}
+.story{
+    color: rgb(39, 3, 3);
+    font-family: 'Roboto', sans-serif;
+}
+.title h2{
+    color: rgb(39, 3, 3);
+}
 p{
     font-family: 'Roboto', sans-serif;
 }
@@ -113,8 +128,7 @@ article p{
     padding-top: 30px;
 }
 article h3{
-    color: rgb(97, 48, 12);
-    font-size: x-large;
+    font-size: 28px;
     padding: 10% auto;
     padding-bottom: 30px;
 }

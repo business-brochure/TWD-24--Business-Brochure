@@ -21,8 +21,15 @@ footer a {
 
  .one-third ul {
 	align-items: center;
-	padding-left: 20px;
+	padding-left: 20%;
  } 
+
+ @include phone-large{
+	 
+ }
+
+
+
  .fab{
      font-size: 29px;
  }

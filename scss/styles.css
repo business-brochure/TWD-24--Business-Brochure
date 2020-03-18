@@ -637,7 +637,7 @@ footer a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 20px;
+  padding-left: 20%;
 }
 
 .fab {
@@ -829,6 +829,25 @@ h3 {
   font-size: large;
 }
 
+main h2 {
+  color: #270303;
+  font-family: 'Roboto', sans-serif;
+}
+
+main h3 {
+  color: #270303;
+  font-family: 'Roboto', sans-serif;
+}
+
+.story {
+  color: #270303;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title h2 {
+  color: #270303;
+}
+
 p {
   font-family: 'Roboto', sans-serif;
 }
@@ -940,8 +959,7 @@ article p {
 }
 
 article h3 {
-  color: #61300c;
-  font-size: x-large;
+  font-size: 28px;
   padding: 10% auto;
   padding-bottom: 30px;
 }
