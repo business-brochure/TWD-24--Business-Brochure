@@ -55,13 +55,7 @@
                        <h2>CAKE LAND BAKERY</h2>
                     </div>
 
-                    <div class="">
-                        <input type="checkbox" id="topping-01" name="topping[]" value="pepperoni" checked>
-                        <label for="topping-01">Male</label>
-
-                        <input type="checkbox" id="topping-02" name="topping[]" value="mushrooms" checked>
-                        <label for="topping-02">Female</label>
-                    </div>  
+              
 
                        <fieldset>
                      
@@ -90,7 +84,29 @@
                                     <label for="phone-number">Phone Number*</label>
                                     <input type="phone-number" id="phone-number" name="phone-number">
                                 </div><!-- end form-row -->
-    
+    <div class="ticks">
+    <p> Diet Restriction?</p>
+    <div class="checkbox">
+        <input type="checkbox" id="topping-01" name="topping[]" value="pepperoni" checked>
+        <label for="topping-01">No</label>
+
+        <input type="checkbox" id="topping-02" name="topping[]" value="Gluten" >
+        <label for="topping-02">Gluten Free</label>
+            
+        <input type="checkbox" id="topping-03" name="topping[]" value="Vegan">
+        <label for="topping-03">Vegan</label>
+   
+      </div>  
+
+      <p>How do you want to recieve your order?</p>
+   <div class="radio">
+
+      <input type="radio" name="crust" id="pickup" value="thin" >
+       <label for="pickup">pick up </label>
+        <input type="radio" name="crust" id="shipping" value="hand">
+        <label for="shipping">Shipping </label>
+  </div>
+</div> <!--end of thicks-->
                                 <div class="form-row question2">
                                     <label for="question2" class="col-form-label">Which Cake Service are you Inequiring about? </label>
                                     <input type="question2" id="question2" name="question2" class="form-control">
@@ -119,26 +135,27 @@
                                 
                              
                             <div class="form-row question4">
-                                <label for="Question4" class="col-form-label">Please write your flavour selection and  any other  additional information</label>
-                                <input type="Question4" id="question4" name="question4" class="form-control">
+                                <label for="Question4" class="col-form-label">Please write your flavour selection and other information</label>
+                                <!-- <input type="Question4" id="question4" name="question4" class="form-control"> -->
+                                <form class="txt-area">
+                                    <textarea> </textarea>
+                                </form>
                             </div><!-- end form-row -->
-            
+                            <div class="form-row submit-group">
+                                <div class="form-row submit">
+                                    <input type="submit" value="Submit"  />
+                                </div>
+                            </div>
 
-         
+                        
                        </fieldset>  <!--end of fieldset-->
 
-                       <div class="form-row submit-group">
-                           <div class="form-row submit">
-                           
-                               <input type="submit" value="Submit"  />
-                           </div>
-                       </div>
+                       <div class="serve">
+                        <h1>Looking Forward To See You !!</h1>
+                              </div><!--nend of serve-->                       
                        
 
-                            <div class="serve">
-                       <h1>Looking Forward To Serve You !!</h1>
-                             </div><!--nend of serve-->
-                        
+                         
                   
                     </form>
                 </section>

@@ -893,9 +893,48 @@ footer a:focus {
   margin-left: 40px;
 }
 
+.checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.radio label {
+  margin-right: 40px;
+}
+
+.ticks {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.ticks p {
+  width: 400px;
+  padding-bottom: 5px;
+}
+
+textarea {
+  width: 509px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.serve {
+  margin-left: 30%;
+}
+
 .wrapper-content {
   max-width: 800px;
-  background-color: rgba(231, 211, 213, 0.87);
+  background-color: rgba(231, 211, 213, 0.651);
   opacity: 0.8;
   -webkit-box-shadow: 0 0 7px 7px rgba(216, 190, 193, 0.938);
           box-shadow: 0 0 7px 7px rgba(216, 190, 193, 0.938);
@@ -1070,6 +1109,7 @@ article img {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    margin-bottom: 20%;
   }
   .team img {
     width: 30%;

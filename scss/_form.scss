@@ -132,3 +132,31 @@
     font-size: 1.05em;
     margin-left: 40px; 
 }
+.checkbox{
+    display: flex;
+}
+
+.radio{
+   display: flex;
+   justify-content: space-between;
+
+}
+.radio label{
+    margin-right: 40px;
+}
+.ticks{
+    display: block;
+    margin-bottom: 20px;
+}
+.ticks p{
+    width: 400px;
+    padding-bottom: 5px;
+}
+textarea{
+  width: 509px;
+  height: 150px;
+ margin-top: 10px;
+}
+.serve{
+    margin-left: 30%;
+}
