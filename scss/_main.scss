@@ -4,6 +4,9 @@ h3{
     margin: 10% auto;
     font-size: large;
 }
+p{
+    font-family: 'Roboto', sans-serif;
+}
 .title{
     border-top: solid rgb(63, 42, 32) 1px;
     border-bottom: solid rgb(63, 42, 32) 1px;
@@ -175,6 +178,9 @@ article img{
 }
 
 //styling the second article 
+.offer{
+    margin-bottom: 10px;
+}
 @include phone-large{
     .team{
         display: flex;
@@ -203,6 +209,7 @@ article img{
 @include phone-large{
     .offer h3{
         margin-top: 0;
+        font-size: 20px;
     }
     .offer p{
         margin-top: 0;
@@ -210,6 +217,7 @@ article img{
     }
     .offer{
         display: flex;
+        justify-content: space-around;
         width: 100%;
         background-color: rgba(218, 197, 199, 0.507);
     }
@@ -220,14 +228,40 @@ article img{
     
     .offer-text{
         width: 35%;
+        padding-top: 40px;
     }
     article img{
         padding-bottom: 0;
-        // max-width: ;
     }
     .offer-text{
         padding-left: 2%;
-        padding-top: 15%;
+       
     }
 
+}
+@include tablet{
+    .offer h3{
+        margin-top: 10%;
+        font-size: 40px;
+    }
+    .offer-text{
+        font-size: 24px;
+    }
+    .offer-img{
+        max-width: 650px;
+    }
+}
+@include desktop{
+    .offer h3{
+        margin-top: 15%;
+        font-size: 60px;
+    }
+    .offer-text{
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    .mother-img{
+        
+    }
+    
 }
