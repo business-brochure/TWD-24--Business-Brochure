@@ -408,7 +408,7 @@ body {
   }
   .cta .cta-img {
     width: 85%;
-    margin: 35px;
+    padding: 30px;
   }
 }
 
@@ -657,6 +657,7 @@ footer p {
 
 footer h2, h3 {
   color: #ffbfa5;
+  text-align: center;
 }
 
 footer a:hover,
