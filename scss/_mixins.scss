@@ -210,3 +210,9 @@ footer p{
     }
     
 }
+@mixin  desktop {
+    @media(min-width: 1100px){
+        @content;
+    }
+    
+}
