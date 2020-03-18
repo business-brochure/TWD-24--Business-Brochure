@@ -22,7 +22,7 @@
 		flex-wrap: wrap;
 		justify-content: space-between;
     } 
-     
+  
     .row01 {
 		display: flex;
 		flex-wrap: wrap;
@@ -41,8 +41,24 @@
 
 }
 
+@media (min-width: 500px){
+
+    .hero{
+        width: auto;
+    }
+
+}
+
 @media (min-width: 700px){
 
+    .logo {
+        display: inline-block;
+        vertical-align: top;
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+    }
 
     nav {
         width: auto;
@@ -82,6 +98,7 @@
         border-bottom: 1px dotted #ccc;
         max-width: 750px;
         margin: 0 auto;
+        width: auto;
     }
 
     .hero h1 {
@@ -103,9 +120,6 @@
     } 
     footer p{
         text-align: center;
-    }
-    .gotopbtn{
-        visibility: visible;
     }	
      
     .question4  input{
@@ -205,9 +219,14 @@ footer p{
     }
     
 }
+
 @mixin  desktop {
     @media(min-width: 1100px){
         @content;
     }
-    
+}
+@mixin  desktop-menu {
+    @media(min-width: 710px){
+        @content;
+    }
 }

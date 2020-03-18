@@ -32,12 +32,15 @@ body {
 .heading-second h3,
 .heading-third h2 {
     text-align: center;
+    margin:0;
 }
 
 
 
 .heading-third h2{
  text-align: center;
+ margin-top:10px;
+ margin-bottom:30px;
 }
 
 .heading h1{
@@ -52,11 +55,12 @@ body {
 
 
 
-.hero {
+.article .hero {
     padding-bottom: 20px;
     border-bottom: 1px dotted #ccc;
     max-width: 750px;
     margin: 0 auto;
+    width: auto;
 }
 
 .hero h1 {
@@ -137,7 +141,8 @@ body {
 }
 .cta .cta-img {
     width: 85%;
-    margin: 35px;
+    padding: 30px;
+    // margin: 35px;
 }
 
 }
