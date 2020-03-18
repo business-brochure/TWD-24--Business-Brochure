@@ -2,16 +2,13 @@
 body {
     
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
     background-color: rgba(247, 238, 238, 0.63);
 }
 .wrapper {
     max-width: 2150px;
     margin: 0 auto;
 }
-h1, h2, nav a {
-	font-family: 'Dancing Script', cursive;
-}
+
 body {
     display: grid;
     grid-template-columns: 100%;
