@@ -1,3 +1,7 @@
+
+
+
+
 // Show Mobile Navigation
 const body = document.body;
 const btn = document.querySelector('.hamburger');
@@ -72,6 +76,4 @@ function topFunction() {
       speedAsDuration: true,
       durationMax:500
   });
-  
-
   
