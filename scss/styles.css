@@ -777,7 +777,12 @@ footer a:focus {
   border-radius: 9px;
   cursor: pointer;
   display: block;
-  margin-top: 0;
+  margin-top: 10px;
+}
+
+.basic-form select {
+  font-size: 1.05em;
+  margin-left: 40px;
 }
 
 .wrapper-content {
@@ -789,6 +794,8 @@ footer a:focus {
   margin: 0 auto;
   margin-top: 90px;
   margin-bottom: 90px;
+<<<<<<< HEAD
+=======
 }
 
 .title {
@@ -933,5 +940,6 @@ article img {
     padding-top: 0;
     margin-top: 0;
   }
+>>>>>>> 304999fe0b92f532918a09726d2737693e0b1a5f
 }
 /*# sourceMappingURL=styles.css.map */
