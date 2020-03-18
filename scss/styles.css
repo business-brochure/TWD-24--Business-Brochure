@@ -373,7 +373,6 @@ body {
 }
 
 .gotopbtn {
-  visibility: hidden;
   position: fixed;
   width: 50px;
   height: 50px;
@@ -459,15 +458,6 @@ body {
 }
 
 @media (min-width: 700px) {
-  .logo {
-    display: inline-block;
-    vertical-align: top;
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
-    margin-top: 15px;
-    /* if you want it vertically middle of the navbar. */
-  }
   nav {
     width: auto;
     height: auto;
@@ -690,6 +680,11 @@ footer a:focus {
   width: 100%;
 }
 
+.banner01 {
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
 .basic-form {
   max-width: 640px;
   margin: 0 auto;
@@ -779,17 +774,6 @@ footer a:focus {
   border-style: ridge;
   font-size: 1.025em;
   margin-top: 10px;
-}
-
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .serve {
