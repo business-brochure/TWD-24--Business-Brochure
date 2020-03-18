@@ -276,12 +276,17 @@ body {
   font-weight: 900;
 }
 
-h1, h3, h2 {
+.heading-third h2 {
+  text-align: center;
+}
+
+.heading h1 {
   text-align: center;
 }
 
 .heading-second h3 {
   color: black;
+  text-align: center;
 }
 
 .hero {
@@ -657,8 +662,6 @@ footer a:focus {
   margin: 0 auto;
   padding: 20px;
   padding-left: 30px;
-  margin-top: 90px;
-  margin-top: 90px;
 }
 
 .basic-form h2,
@@ -798,8 +801,6 @@ footer a:focus {
   margin: 0 auto;
   margin-top: 90px;
   margin-bottom: 90px;
-<<<<<<< HEAD
-=======
 }
 
 .title {
@@ -944,6 +945,5 @@ article img {
     padding-top: 0;
     margin-top: 0;
   }
->>>>>>> 304999fe0b92f532918a09726d2737693e0b1a5f
 }
 /*# sourceMappingURL=styles.css.map */
