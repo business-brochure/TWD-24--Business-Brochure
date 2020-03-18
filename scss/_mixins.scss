@@ -51,6 +51,14 @@
 
 @media (min-width: 700px){
 
+    .logo {
+        display: inline-block;
+        vertical-align: top;
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+    }
 
     nav {
         width: auto;
@@ -112,9 +120,6 @@
     } 
     footer p{
         text-align: center;
-    }
-    .gotopbtn{
-        visibility: visible;
     }	
      
     .question4  input{
@@ -214,9 +219,9 @@ footer p{
     }
     
 }
+
 @mixin  desktop {
     @media(min-width: 1100px){
         @content;
     }
-    
 }
