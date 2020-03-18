@@ -294,11 +294,12 @@ body {
   text-align: center;
 }
 
-.hero {
+.article .hero {
   padding-bottom: 20px;
   border-bottom: 1px dotted #ccc;
   max-width: 750px;
   margin: 0 auto;
+  width: auto;
 }
 
 .hero h1 {
@@ -437,6 +438,12 @@ body {
   }
 }
 
+@media (min-width: 500px) {
+  .hero {
+    width: auto;
+  }
+}
+
 @media (min-width: 700px) {
   nav {
     width: auto;
@@ -474,6 +481,7 @@ body {
     border-bottom: 1px dotted #ccc;
     max-width: 750px;
     margin: 0 auto;
+    width: auto;
   }
   .hero h1 {
     margin-bottom: 0.8em;
