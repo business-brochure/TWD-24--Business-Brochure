@@ -365,6 +365,7 @@ body {
 .cta-btn a {
   color: #ffbfa5;
   text-decoration: none;
+  font-size: 1.2em;
 }
 
 .gotopbtn {
@@ -494,7 +495,6 @@ body {
     margin-right: 60px;
   }
   .hero {
-    padding: 50px 0;
     border-bottom: 1px dotted #ccc;
     max-width: 750px;
     margin: 0 auto;
@@ -610,6 +610,10 @@ footer {
   background-color: #333;
   color: white;
   padding: 30px;
+}
+
+footer h1, h2, h3 {
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 footer a {
