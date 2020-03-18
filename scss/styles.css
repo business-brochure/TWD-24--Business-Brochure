@@ -815,7 +815,7 @@ footer a:focus {
 
 .wrapper-content {
   max-width: 800px;
-  background-color: #ffbfa5;
+  background-color: #ccc9c8;
   opacity: 0.8;
   -webkit-box-shadow: 0 0 7px 7px #858181;
           box-shadow: 0 0 7px 7px #858181;
@@ -828,6 +828,10 @@ h3 {
   text-align: center;
   margin: 10% auto;
   font-size: large;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
 }
 
 .title {
@@ -1003,6 +1007,10 @@ article img {
   }
 }
 
+.offer {
+  margin-bottom: 10px;
+}
+
 @media (min-width: 500px) {
   .team {
     display: -webkit-box;
@@ -1034,6 +1042,7 @@ article img {
 @media (min-width: 500px) {
   .offer h3 {
     margin-top: 0;
+    font-size: 20px;
   }
   .offer p {
     margin-top: 0;
@@ -1043,6 +1052,8 @@ article img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     width: 100%;
     background-color: rgba(218, 197, 199, 0.507);
   }
@@ -1052,13 +1063,37 @@ article img {
   }
   .offer-text {
     width: 35%;
+    padding-top: 40px;
   }
   article img {
     padding-bottom: 0;
   }
   .offer-text {
     padding-left: 2%;
-    padding-top: 15%;
+  }
+}
+
+@media (min-width: 900px) {
+  .offer h3 {
+    margin-top: 10%;
+    font-size: 40px;
+  }
+  .offer-text {
+    font-size: 24px;
+  }
+  .offer-img {
+    max-width: 650px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .offer h3 {
+    margin-top: 15%;
+    font-size: 60px;
+  }
+  .offer-text {
+    font-size: 25px;
+    margin-left: 50px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
