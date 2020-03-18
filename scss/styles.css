@@ -297,10 +297,13 @@ body {
 .heading-second h3,
 .heading-third h2 {
   text-align: center;
+  margin: 0;
 }
 
 .heading-third h2 {
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .heading h1 {
@@ -656,8 +659,8 @@ footer p {
 }
 
 footer h2, h3 {
-  color: #ffbfa5;
   text-align: center;
+  color: #ffbfa5;
 }
 
 footer a:hover,
