@@ -6,6 +6,8 @@ btn.addEventListener('click', function(){
     body.classList.toggle('show');
 });
 
+
+// banner image slider
 var slideIndex = 1;
 showSlides(slideIndex);
 
