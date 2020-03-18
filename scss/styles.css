@@ -276,6 +276,11 @@ body {
   font-weight: 900;
 }
 
+.heading-second h3,
+.heading-third h2 {
+  text-align: center;
+}
+
 .heading-third h2 {
   text-align: center;
 }
@@ -614,7 +619,7 @@ footer h2 a {
 }
 
 footer p {
-  text-align: left;
+  text-align: center;
   color: #ffbfa5;
 }
 
