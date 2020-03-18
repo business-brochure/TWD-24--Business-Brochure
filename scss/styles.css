@@ -304,10 +304,12 @@ body {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 30px;
+  color: black;
 }
 
 .heading h1 {
   text-align: center;
+  font-family: 'Dancing Script', cursive;
 }
 
 .heading-second h3 {
@@ -814,7 +816,7 @@ footer a:focus {
 
 .wrapper-content {
   max-width: 800px;
-  background-color: rgba(233, 198, 203, 0.507);
+  background-color: #ccc9c8;
   opacity: 0.8;
   -webkit-box-shadow: 0 0 7px 7px rgba(216, 190, 193, 0.938);
           box-shadow: 0 0 7px 7px rgba(216, 190, 193, 0.938);
