@@ -35,3 +35,20 @@ header h1 a{
     text-decoration: none;
     color:#ffffff ;
 }
+
+.title{
+    border-top: solid rgb(63, 42, 32) 1px;
+    border-bottom: solid rgb(63, 42, 32) 1px;
+    width: 50%;
+    margin: 15% auto;
+    text-align: center;
+    font-size: 30px;
+    h2{
+    margin-top:10% ;
+    margin-bottom: 10%;
+    }
+}
+
+.story{
+    font-size: 30px;
+}

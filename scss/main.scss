@@ -1,45 +1,5 @@
-//styling the title
-h3{
-    text-align: center;
-    margin: 10% auto;
-    font-size: large;
-}
-main h2{
-    color: rgb(39, 3, 3);
-    font-family: 'Roboto', sans-serif;
-}
-main h3{
-    color: rgb(39, 3, 3);
-    font-family: 'Roboto', sans-serif;
-}
-.story{
-    color: rgb(39, 3, 3);
-    font-family: 'Roboto', sans-serif;
-}
-.title h2{
-    color: rgb(39, 3, 3);
-}
-p{
-    font-family: 'Roboto', sans-serif;
-}
-.title{
-    border-top: solid rgb(63, 42, 32) 1px;
-    border-bottom: solid rgb(63, 42, 32) 1px;
-    width: 50%;
-    // margin-left:  30%;
-    // margin-top: 10%;
-    // margin-bottom: 10%;
-    margin: 15% auto;
-    text-align: center;
-    font-size: 30px;
-    h2{
-    margin-top:10% ;
-    margin-bottom: 10%;
-    }
-}
-.story{
-    font-size: 30px;
-}
+
+
 //styling the menu elements 
 
 article {
@@ -148,7 +108,8 @@ article img{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     font-size: bolder;
-    margin-bottom: 10%;
+    font-size: large;
+    margin-bottom: 6%;
     margin-top: 0;
     
 }
@@ -274,8 +235,4 @@ article img{
         font-size: 25px;
         margin-left: 50px;
     }
-    .mother-img{
-        
-    }
-    
 }

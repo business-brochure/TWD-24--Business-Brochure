@@ -33,6 +33,36 @@ p {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+h3 {
+  text-align: center;
+  margin: 10% auto;
+  font-size: large;
+}
+
+main h2 {
+  color: #270303;
+  font-family: 'Roboto', sans-serif;
+}
+
+main h3 {
+  color: #270303;
+  font-family: 'Roboto', sans-serif;
+}
+
+.story {
+  color: #270303;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title h2 {
+  color: #270303;
+  font-size: 40px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
 .image-text {
   position: absolute;
   text-align: center;
@@ -169,6 +199,24 @@ header h1 {
 header h1 a {
   text-decoration: none;
   color: #ffffff;
+}
+
+.title {
+  border-top: solid #3f2a20 1px;
+  border-bottom: solid #3f2a20 1px;
+  width: 50%;
+  margin: 15% auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+.title h2 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.story {
+  font-size: 30px;
 }
 
 nav a {
@@ -1004,7 +1052,8 @@ article img {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     font-size: bolder;
-    margin-bottom: 10%;
+    font-size: large;
+    margin-bottom: 6%;
     margin-top: 0;
   }
   .section-about article {
